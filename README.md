@@ -36,7 +36,7 @@ This repository contains the mobile application.
 
 The application is designed around explicit state transitions for service requests to avoid ambiguous or conflicting states. Network failures, retries, and partial updates are handled deliberately to prevent data inconsistencies and degraded user experience.
 
-The structure favors clarity and resilience over clever abstractions.
+The structure favors clarity and resilience over abstractions.
 
 ## Status
 
