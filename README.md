@@ -4,17 +4,26 @@ On-demand skilled services marketplace built with Flutter.
 
 ## Overview
 
-Talent Finder connects users with nearby skilled workers such as plumbers, electricians, technicians and other casual workers. The platform supports real-time service requests, location-based matching, and structured task workflows from booking to completion.
+Talent Finder connects users with nearby skilled workers such as plumbers, electricians, technicians, and other casual service providers. The platform supports real-time service requests, location-based matching, and structured workflows from booking to task completion.
 
 This repository contains the mobile application.
 
 ## Key Focus Areas
 
-- Location-based matching and discovery
-- Real-time service request flows
+- Location-based matching and worker discovery
+- Real-time service request and acceptance flows
 - Booking, task tracking, and status updates
-- Reliable networking under poor connectivity
-- Clear and predictable user flows
+- Reliable networking under poor or unstable connectivity
+- Clear, predictable user journeys for both clients and workers
+
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/talent-app1.jpg" width="230" />
+  <img src="assets/screenshots/talent-app2.jpg" width="230" />
+  <img src="assets/screenshots/talent-app3.jpg" width="230" />
+  <img src="assets/screenshots/talent-app4.jpg" width="230" />
+</p>
 
 ## Tech Stack
 
@@ -25,13 +34,15 @@ This repository contains the mobile application.
 
 ## Architecture Notes
 
-The app is designed around explicit state transitions for service requests to avoid ambiguous or conflicting states. Network failures and retries are handled deliberately to prevent data inconsistencies and poor user experience.
+The application is designed around explicit state transitions for service requests to avoid ambiguous or conflicting states. Network failures, retries, and partial updates are handled deliberately to prevent data inconsistencies and degraded user experience.
+
+The structure favors clarity and resilience over clever abstractions.
 
 ## Status
 
-Production-ready
-(Some services and keys omitted)
+Production-ready  
+(Some services omitted)
 
 ## Notes
 
-The focus of this project is reliability in real-world usage, where connectivity and device quality cannot be assumed.
+This project is built with real-world usage in mind, where network reliability, device quality, and user behavior cannot be assumed to be ideal.
